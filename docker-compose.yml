@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: ./PassOP-frontend-main
+
+    container_name: frontend
+
+    ports:
+      - "5173:5173"
+
+  backend:
+    build:
+      context: ./PassOP-backend-main
+
+    container_name: backend
+
+    ports:
+      - "2000:2000"
+
+    env_file:
+      - ./PassOP-backend-main/.env
