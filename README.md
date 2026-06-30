@@ -145,21 +145,6 @@ http://localhost:5173
 
 ---
 
-## 📷 Screenshots
-
-Add screenshots of your application here.
-
-Example:
-
-```
-screenshots/
-├── login.png
-├── dashboard.png
-└── passwords.png
-```
-
----
-
 ## 🎯 Future Improvements
 
 * Password Generator
